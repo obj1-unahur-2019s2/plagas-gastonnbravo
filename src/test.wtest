@@ -1,0 +1,39 @@
+import plagas.*
+import casas.*
+describe "inciar variables"{
+	var casa1 = new Hogar()
+	var huerta1 = new Hogar()
+	var mascota1 = new Hogar()
+	
+	test "probar casas"{
+		casa1.confort(100)
+		casa1.nivelDeMugre(50)
+
+		assert.equals(100,casa1.confort())
+		assert.that(casa1.esBueno())
+	test "probar huerta"{
+		nivelHuerta.nivel(30)
+		huerta1.capacidadProduccion(150)
+		assert.equals(100,huerta1.capacidadProduccion())
+		assert.that(huerta1.esBueno())
+		
+	}
+
+		
+		
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

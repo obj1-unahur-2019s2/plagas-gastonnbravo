@@ -1,0 +1,19 @@
+import casas.*
+import plagas.*
+describe "iniciar plagas "{
+	var cucarachon = new Cucarachas(peso=10,poblacion =20 )
+	var hogar1 = new Hogar()
+	fixture{
+		//aca van las acciones MASTER
+		
+	}
+	test"prueba de cucaracha"{
+		cucarachon.atacar(hogar1)
+		
+		assert.equals(12,cucarachon.peso())
+		assert.equals(22,cucarachon.poblacion())
+		
+	}
+	
+	
+}
